@@ -51,7 +51,7 @@ default['tomcat']['libs'] = [
 case node['platform']
 when 'centos', 'fedora'
 	default['tomcat']['package'] 		= 'tomcat'
-	default['tomcat']['service'] 		= 'tomcat'	
+	default['tomcat']['service'] 		= 'tomcat'
 	default['tomcat']['user'] 		= 'tomcat'
 	default['tomcat']['group'] 		= 'tomcat'
 	default['tomcat']['home'] 		= "/usr/share/tomcat"
