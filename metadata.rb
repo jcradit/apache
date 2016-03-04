@@ -11,4 +11,4 @@ supports "centos"
 supports "amazon"
 supports "fedora"
 
-depends "java"
+#depends "java"
